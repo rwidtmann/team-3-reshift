@@ -1,0 +1,149 @@
+.mainSet {
+  display: flex;
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+}
+
+.adminLogin {
+  width: 100vh;
+  max-height: 30vh;
+  border: yellowgreen 5px outset;
+  border-radius: 10%;
+}
+
+
+.cdBtn  {
+  display: flex;
+    /* grid-gap: 15px; */
+    /* gap: 15px; */
+    /* bottom: 15px; */
+    /* left: 0px; */
+    margin-top: 75px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.eBtn {
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo {
+  height: 70px;
+  padding: 5px;
+  background-color: rgb(109, 109, 109);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.homeLogin {
+  display: flex;
+  width: 55vw;
+  height: 55vh;
+  border: yellowgreen 5px outset;
+  border-radius: 10%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-input {
+  display: inline-block;
+  justify-content: center;
+}
+
+.formText {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 4px;
+  padding: 5px;
+  width: 500px;
+}
+
+.formText button {
+  width: 150px;
+  height: 60px;
+}
+
+.formText input {
+  width: 230px;
+}
+
+
+.header {
+  margin: 10px;
+  /* background-image: url(../images/modern-bright-red-vector-header-260nw-1847556298.webp);
+  background-image:
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.446), rgba(14, 14, 14, 0.461)),
+  url('../images/headerimg4.jpeg');
+  background-size: cover;
+  background-position: center;  */
+  background-color: darkgray;
+  
+}
+
+.logo {
+  color: white;
+}
+
+
+@media screen and (max-width: 900px) {
+  /* .header{
+    display: none;
+  } */
+  .bodyCss{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+  }
+  .h2head {
+    display: none;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  .homeLogin {
+    height: 100%;
+    width: fit-content;
+  }
+  .adminLogin {
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .mainSet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  .formText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: fit-content;
+  }
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 65%;
+  }
+}
